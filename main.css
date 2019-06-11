@@ -1,0 +1,59 @@
+.graphichead {
+  font-family: 'BentonSans', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+}
+
+.subtitle {
+  font-family: 'BentonSans', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-bottom: 0.2em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px dotted #eee;
+  width: 100%;
+  float: left;
+}
+
+.Name {
+  margin-bottom: 0.2em;
+  font-family: 'BentonSans', Helvetica, Arial, sans-serif;
+  width: 100%;
+  float: left;
+  font-size: 0.9em;
+}
+
+.Value {
+  float: left;
+  display: inline;
+  margin-right: 1.5%;
+}
+
+.Value span {
+  float: left;
+  height: 20px;
+  background: rgba(237, 236, 228, 1);
+  width: 100%;
+}
+
+.ValueNumber {
+  margin-bottom: 0.2em;
+  font-family: 'BentonSans', Helvetica, Arial, sans-serif;
+  float: left;
+  font-size: 0.9em;
+  display: inline;
+}
+
+.highlight .Value span {
+  background: rgba(191, 97, 81, 1)!important;
+}
+
+.highlight .Name {
+  font-weight: bold;
+}
